@@ -9,8 +9,8 @@ WorldInfo {
   northDirection -1 0 -1
 }
 Viewpoint {
-  orientation 0.710433 0.481919 0.512874 4.46871
-  position -0.329789 29.1063 2.30352
+  orientation 0.44545 0.833077 0.327958 5.09976
+  position -19.6074 17.5388 12.6857
   follow "pioneer2"
 }
 Background {
@@ -413,7 +413,7 @@ DEF FLOOR Solid {
   locked TRUE
 }
 DEF PIONEER2 DifferentialWheels {
-  translation 4.5 0 -9
+  translation 0 0 -9
   rotation 0 1 0 3.14159
   children [
     Compass {
@@ -1030,7 +1030,7 @@ DEF PIONEER2 DifferentialWheels {
     ]
   }
   battery [
-    999477, 1e+06, 1e+06
+    999476, 1e+06, 1e+06
   ]
   cpuConsumption 0.2
   motorConsumption 0.1
@@ -1038,4 +1038,6 @@ DEF PIONEER2 DifferentialWheels {
   wheelRadius 0.0825
   speedUnit 0.1
   slipNoise 0.4
+  encoderNoise 0
+  encoderResolution 5
 }

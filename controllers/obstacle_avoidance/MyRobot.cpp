@@ -1,4 +1,13 @@
-/**We're going to write the commands for getting the robot to the end of the room*/
+/**
+ * @file    MyRobot.h
+ * @brief   A template for webots projects.
+ *
+ * @author  Guillermo Mendiguchia <100284346@alumnos.uc3m.es>
+ * @date    08 / 11 / 2014
+ */
+
+
+//We're going to write the commands for getting the robot to the end of the room
 
 
 
@@ -6,7 +15,7 @@
 
 //////////////////////////////////////////////
 
-/**
+/*
 *We iniciate the sensors and enable the reading of the distance
 *We also set the wheel speeds to 0
 */
@@ -85,7 +94,7 @@ void MyRobot::run()
 	ir15_val = _distance_sensor[6]->getValue();
 	ir3_val = _distance_sensor[7]->getValue();
 
-/**
+/*
 *Starting to list the possible cases needed for the robot to get to the end
 *Not omptimized since the compass isn't used
 */ 

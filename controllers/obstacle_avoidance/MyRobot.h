@@ -1,3 +1,10 @@
+/**
+ * @file    MyRobot.h
+ * @brief   A template for webots projects.
+ *
+ * @author  Guillermo Mendiguchia <100284346@alumnos.uc3m.es>
+ * @date    08 / 11 / 2014
+ */
 
 
 #include <iostream>
@@ -30,8 +37,7 @@ class MyRobot : public DifferentialWheels {
         Mode _mode;
 
     public:
-        // You may need to define your private methods or variables, like
-        //  Constructors, helper functions, etc.
+
 
         /**
          * @brief Empty constructor of the class.
@@ -44,7 +50,9 @@ class MyRobot : public DifferentialWheels {
         ~MyRobot();
 
         /**
-         * @brief User defined function for initializing and running the template class.
+         * @brief This function will execute the main program
+         * @param No parameters are passed to this function
+         * @return This function doesn't return any type of value
          */
         void run();
 };
