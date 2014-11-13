@@ -3,4 +3,4 @@ perspectives: 000000ff00000000fd00000003000000000000016c000003b9fc0200000001fb00
 minimizedPerspectives: 
 maximizedDockId: -1
 centralWidgetVisible: 1
-textFiles: 0 "controllers/obstacle_avoidance/obstacle_avoidance.cpp"
+textFiles: 0 "controllers/wall_detector/wall_detector.cpp"
